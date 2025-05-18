@@ -12,7 +12,7 @@ int main(){
     
 
     for (int i=0; i <= degree; i++){
-        cout << "Enter the coefficient of x^" << i << ": ";
+        cout << "Enter the coefficient of x^" << i << ":";
         cin >> coeff[i];
     }
 
