@@ -1,2 +1,2 @@
-# c-programmes
-all the programms for which i have done in c++ course 
+!!! Descrete Management System !!!
+this contain all the programs of the practicals 
