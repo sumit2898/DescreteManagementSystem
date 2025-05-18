@@ -4,7 +4,8 @@ value as true/false.
 b. union and intersection of two sets. 
 c. complement: assume universal set as per the input elements from the user. 
 d. set difference and symmetric difference between two sets. 
-e. cartesian product of two sets.*/
+e. cartesian product of two sets.
+f. Write a program to generate power set of a set.*/
 
 #include <iostream>
 using namespace std;
@@ -101,6 +102,27 @@ void symmetric_diff(int C[], int D[]) {
     }
     cout << endl;
 }
+void powerSet(int n,int* arr){
+ int n;
+    cout<<"enter size of set";
+    cin>>n;
+    int* arr=new int[n];
+    cout<<"enter values of set";
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+}
+ int counter=pow(2,n);
+    cout<<"Resultant Powerset is :";
+    for(int i=0;i<counter;i++){
+        {cout<<"{";
+        for(int j=0;j<n;j++){
+            if(i & (1<<j)){
+                cout<<arr[j]<<" ";
+        }
+        }
+        cout<<"}"<<endl;
+}
+}
 
 int main() {
     int U[10] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
@@ -115,5 +137,6 @@ int main() {
     setdifference(A, B);
     subset(A, B);
     symmetric_diff(C, D);
+    powerSet( n,arr);
     return 0;
 }
