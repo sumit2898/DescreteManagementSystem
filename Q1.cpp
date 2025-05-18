@@ -1,10 +1,10 @@
-*/Write a program to represent SETS using bit strings. Also, perform the following SET operations: 
+/*Write a program to represent SETS using bit strings. Also, perform the following SET operations: 
 a. is member: check whether an element belongs to the set or not and return 
 value as true/false.
 b. union and intersection of two sets. 
 c. complement: assume universal set as per the input elements from the user. 
 d. set difference and symmetric difference between two sets. 
-e. cartesian product of two sets./*
+e. cartesian product of two sets.*/
 
 #include <iostream>
 using namespace std;
