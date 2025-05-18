@@ -97,7 +97,7 @@ void partialorderrelation(int **M, int size , bool isReflexive , bool isAntisymm
 
 int main() {
     int size;
-    cout << "Enter the size of the matrix: ";
+    cout << "Enter  size of the matrix: ";
     cin >> size;
 
     
