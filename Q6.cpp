@@ -17,6 +17,10 @@ int main(){
     bool complete=true;
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
+            if ( M [i][j] ! =0 && i!=j){
+                complete = false ;
+                    break ;
+            }
             if(M[i][j]==0 && i!=j){
                 complete=false;
                 break;
